@@ -1,0 +1,73 @@
+/* ====== Estilos generales de texto ====== */
+h1, h2, h3, p {
+  font-family: Arial, sans-serif;
+  color: rgb(102, 21, 140);
+}
+
+/* ====== Contenedor principal del título ====== */
+.grid-container-title {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+/* ====== Contenedor principal de secciones ====== */
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 8px;
+}
+
+/* ====== Contenedor del pie de página ====== */
+.grid-container-footer{
+    display: grid;
+    background-color: #FDFD96;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+    
+}
+
+/* ====== Centrar contenido ====== */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* ====== Estilo para divs con borde ====== */
+.div{
+    border-radius: 10px;
+    border: 2px solid #1e06b7;
+    padding: 1px;
+}
+
+/* ====== Estilo para imágenes ====== */
+.icono {
+    width: 80px;
+    height: auto;
+}
+
+/* ====== Estilos de las tarjetas de lenguajes ====== */
+/* Lenguaje 1 y 6 → alineado a la derecha */
+#lenguaje1, #lengueje6 {
+    margin: 10px;
+    padding: 10px;
+    background-color: #F8BBD0;
+    text-align: right;
+}
+
+/* Lenguaje 2 y 5 → alineado al centro */
+#lenguaje2, #lengueje5 {
+    margin: 10px;
+    padding: 10px;
+    background-color: #C8E6C9;
+    text-align: center;
+}
+
+/* Lenguaje 3 y 4 → alineado a la izquierda */
+#lenguaje3, #lengueje4 {
+    margin: 10px;
+    padding: 10px;
+    background-color: #BBDEFB;
+    text-align: left;
+}
